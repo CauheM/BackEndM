@@ -1,0 +1,14 @@
+C:\Users\54440848800\Desktop\BackEndM\CalculadordeNotas\obj\Debug\net9.0\CalculadordeNotas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54440848800\Desktop\BackEndM\CalculadordeNotas\obj\Debug\net9.0\CalculadordeNotas.AssemblyInfoInputs.cache
+C:\Users\54440848800\Desktop\BackEndM\CalculadordeNotas\obj\Debug\net9.0\CalculadordeNotas.AssemblyInfo.cs
+C:\Users\54440848800\Desktop\BackEndM\CalculadordeNotas\obj\Debug\net9.0\CalculadordeNotas.csproj.CoreCompileInputs.cache
+C:\Users\54440848800\Desktop\BackEndM\CalculadordeNotas\bin\Debug\net9.0\CalculadordeNotas.exe
+C:\Users\54440848800\Desktop\BackEndM\CalculadordeNotas\bin\Debug\net9.0\CalculadordeNotas.deps.json
+C:\Users\54440848800\Desktop\BackEndM\CalculadordeNotas\bin\Debug\net9.0\CalculadordeNotas.runtimeconfig.json
+C:\Users\54440848800\Desktop\BackEndM\CalculadordeNotas\bin\Debug\net9.0\CalculadordeNotas.dll
+C:\Users\54440848800\Desktop\BackEndM\CalculadordeNotas\bin\Debug\net9.0\CalculadordeNotas.pdb
+C:\Users\54440848800\Desktop\BackEndM\CalculadordeNotas\obj\Debug\net9.0\CalculadordeNotas.dll
+C:\Users\54440848800\Desktop\BackEndM\CalculadordeNotas\obj\Debug\net9.0\refint\CalculadordeNotas.dll
+C:\Users\54440848800\Desktop\BackEndM\CalculadordeNotas\obj\Debug\net9.0\CalculadordeNotas.pdb
+C:\Users\54440848800\Desktop\BackEndM\CalculadordeNotas\obj\Debug\net9.0\CalculadordeNotas.genruntimeconfig.cache
+C:\Users\54440848800\Desktop\BackEndM\CalculadordeNotas\obj\Debug\net9.0\ref\CalculadordeNotas.dll
