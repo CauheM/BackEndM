@@ -1,0 +1,15 @@
+C:\Users\54440848800\Desktop\BackEndM\imparesEpares\bin\Debug\net9.0\imparesEpares.exe
+C:\Users\54440848800\Desktop\BackEndM\imparesEpares\bin\Debug\net9.0\imparesEpares.deps.json
+C:\Users\54440848800\Desktop\BackEndM\imparesEpares\bin\Debug\net9.0\imparesEpares.runtimeconfig.json
+C:\Users\54440848800\Desktop\BackEndM\imparesEpares\bin\Debug\net9.0\imparesEpares.dll
+C:\Users\54440848800\Desktop\BackEndM\imparesEpares\bin\Debug\net9.0\imparesEpares.pdb
+C:\Users\54440848800\Desktop\BackEndM\imparesEpares\obj\Debug\net9.0\imparesEpares.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54440848800\Desktop\BackEndM\imparesEpares\obj\Debug\net9.0\imparesEpares.AssemblyInfoInputs.cache
+C:\Users\54440848800\Desktop\BackEndM\imparesEpares\obj\Debug\net9.0\imparesEpares.AssemblyInfo.cs
+C:\Users\54440848800\Desktop\BackEndM\imparesEpares\obj\Debug\net9.0\imparesEpares.csproj.CoreCompileInputs.cache
+C:\Users\54440848800\Desktop\BackEndM\imparesEpares\obj\Debug\net9.0\imparesEpares.sourcelink.json
+C:\Users\54440848800\Desktop\BackEndM\imparesEpares\obj\Debug\net9.0\imparesEpares.dll
+C:\Users\54440848800\Desktop\BackEndM\imparesEpares\obj\Debug\net9.0\refint\imparesEpares.dll
+C:\Users\54440848800\Desktop\BackEndM\imparesEpares\obj\Debug\net9.0\imparesEpares.pdb
+C:\Users\54440848800\Desktop\BackEndM\imparesEpares\obj\Debug\net9.0\imparesEpares.genruntimeconfig.cache
+C:\Users\54440848800\Desktop\BackEndM\imparesEpares\obj\Debug\net9.0\ref\imparesEpares.dll
