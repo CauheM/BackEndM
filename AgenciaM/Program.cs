@@ -67,7 +67,8 @@ void CadastrarClientes()
 
     Console.WriteLine("Digite o nome do cliente");
     nomes[totalclientes] = Console.ReadLine();
-
+    
+    dinheiro[totalclientes] = 0;
 
     totalclientes++;
     
