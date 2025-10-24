@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalculadordeNotas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+baa09ea0b2ab7af86a496f907ca6f18806e9b8d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37282d9c469776f6c9105dc1710d89d921f1f7c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalculadordeNotas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalculadordeNotas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

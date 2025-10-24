@@ -1,6 +1,6 @@
 ﻿int contador = 1;
 
-Console.WriteLine($"Quantas vezes você quer repetir");
+Console.WriteLine("Quantas vezes você quer repetir");
 int qtdvezes = int.Parse(Console.ReadLine());
 
 while (contador <= qtdvezes)
