@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgenciaM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c87d534cad2bd26d77dacd4cae6a176753a183a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+289a618a44a07c448042241b3fbd5fa714b87835")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgenciaM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgenciaM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
