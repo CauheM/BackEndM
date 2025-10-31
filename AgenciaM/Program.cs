@@ -117,7 +117,7 @@ void SacarDinheiro()
     else
     {
      dinheiro[id] -= valor;
-     Console.WriteLine($"Saque de R$ {valor:F2} realizado com sucesso!");
+     Console.WriteLine($"Saque de R$ {valor:F2} realizado com sucesso");
     }
 
     Console.WriteLine("Digite <Enter> para continuar...");
@@ -129,17 +129,15 @@ void TransferirDinheiro()
    Console.WriteLine("== Transferência ==");
 
    Console.WriteLine("Selecione o cliente que vai enviar:");
-   int origem = BuscarCliente();
-   if (origem == -1) 
-   {
-     return;
-   }
-
+    int origem = BuscarCliente();
+   
+   if (origem == -1) return;
+   
     Console.WriteLine("Selecione o cliente que vai receber:");
     int destino = BuscarCliente();
     if (destino == -1 || destino == origem)
     {
-     Console.WriteLine("Transferência cancelada.");
+     Console.WriteLine("Transferência cancelada");
      Console.WriteLine("Digite <Enter> para continuar...");
      Console.ReadLine();
      return;
@@ -150,17 +148,17 @@ void TransferirDinheiro()
 
     if (valor <= 0)
     {
-        Console.WriteLine("Valor inválido.");
+        Console.WriteLine("Valor inválido");
     }
     else if (valor > dinheiro[origem])
     {
-        Console.WriteLine("Saldo insuficiente para transferir.");
+        Console.WriteLine("Saldo insuficiente para transferir");
     }
     else
     {
         dinheiro[origem] -= valor;
         dinheiro[destino] += valor;
-        Console.WriteLine($"Transferência de R$ {valor:F2} realizada com sucesso!");
+        Console.WriteLine($"Transferência de R$ {valor:F2} realizada com sucesso");
     }
     
     Console.WriteLine("Digite <Enter> para continuar...");
