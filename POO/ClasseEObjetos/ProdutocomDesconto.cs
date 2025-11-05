@@ -3,10 +3,9 @@ namespace ClasseEObjetos
     public class ProdutocomDesconto
     {
         public string nome;
-        public float preco;
+        public double preco;
 
         public void AplicarDesconto(double percentual = 0)
-
         {
             Console.WriteLine($"Qual desconto vc irá colocar no {nome}");
             percentual = double.Parse(Console.ReadLine());
@@ -20,13 +19,10 @@ namespace ClasseEObjetos
             double desconto = preco * (percentual / 100);
             double RF = preco - desconto;
 
-            Console.WriteLine($"Desconto de {percentual}% aplicado, o novo preço será R$ {RF:F2}");
+            Console.WriteLine($"Desconto de {percentual}% aplicado, o novo preço definido será R$ {RF:F2}");
 
         }
       
     }
 
-
-
-
-    }
+}   
