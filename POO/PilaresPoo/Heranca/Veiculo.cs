@@ -1,3 +1,5 @@
+using System.Security.Cryptography.X509Certificates;
+
 namespace Heranca
 {
     public class Veiculo
@@ -6,6 +8,9 @@ namespace Heranca
         public string Modelo;
         public int Ano;
 
-        
+        public void Acelerar()
+        {
+            Console.WriteLine($"Acelerando o veículo");
+        }
     }
 }
