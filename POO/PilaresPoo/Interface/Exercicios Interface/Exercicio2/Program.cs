@@ -1,6 +1,4 @@
-﻿using System.Runtime.Intrinsics.X86;
-using System.Security.AccessControl;
-using Exercicio2;
+﻿using Exercicio2;
 
 List<Fatura> listaFaturas = new List<Fatura>();
 List<Relatorio> listaRelatorio = new List<Relatorio>();
@@ -12,14 +10,14 @@ int opcao = -1;
 do{
 
 Console.Clear();
-Console.WriteLine("Olá, bem vindo ao VNFN, o q vc deseja fazer");
+Console.WriteLine("Olá, bem vindo ao NSNN, o q vc deseja fazer");
 Console.WriteLine("1 - Cadastrar Fatura");
-Console.WriteLine("2- Cadastrar relatório");
-Console.WriteLine("3- Cadastras Contrato");
-Console.WriteLine("4- Listar Faturas");
-Console.WriteLine("5- Listar Relatórios");
-Console.WriteLine("6- Listar Contratos");
-Console.WriteLine("0- Sair");
+Console.WriteLine("2 - Cadastrar relatório");
+Console.WriteLine("3 - Cadastrar Contrato");
+Console.WriteLine("4 - Listar Faturas");
+Console.WriteLine("5 - Listar Relatórios");
+Console.WriteLine("6 - Listar Contratos");
+Console.WriteLine("0 - Sair");
 Console.Write("Escolha uma opção: ");
 opcao = int.Parse(Console.ReadLine());
 
@@ -36,11 +34,11 @@ switch(opcao)
         break;
         case 2:
         Console.Clear();
-        Console.WriteLine("Cadastrar Relatório de desenvolvimento");
+        CadastrarRelatorios();
         break;
         case 3:
         Console.Clear();
-        Console.WriteLine("Cadastrar Contrato de desenvolvimento");
+        CadastrarContratos();
         break;
         case 4:
         Console.Clear();
@@ -48,11 +46,11 @@ switch(opcao)
         break;
         case 5:
         Console.Clear();
-        Console.WriteLine("Listar Relatórios em desenvolvimento");
+        ListarRelatorios();
         break;
         case 6:
         Console.Clear();
-        Console.WriteLine("Listar Contratos em desenvolvimento");
+        ListarContratos();
         break;
     }
 
@@ -83,12 +81,30 @@ void CadastrarFaturas()
 
 void CadastrarRelatorios()
 {
-    
+    Console.WriteLine("Digite o nome do responsável");
+    string nameR = Console.ReadLine();
+
+    Console.WriteLine("Digite o Texto do relatório");
+    string textoR = Console.ReadLine();
+
+    Console.WriteLine("Relatório cadastrado com sucesso");
+
+    Relatorio Rel = new Relatorio(nameR, textoR);
+    documentos.Add(Rel);
 }
 
 void CadastrarContratos()
 {
-    
+    Console.WriteLine("Digite o nome no contrato");
+    string nameC = Console.ReadLine();
+
+    Console.WriteLine("Digite a clausula do contrato");
+    string textoC = Console.ReadLine();
+
+    Console.WriteLine("Contrato cadastrado com sucesso");
+
+    Contrato Con = new Contrato (nameC, textoC);
+    documentos.Add(Con);
 }
 
 void ListarFaturas()

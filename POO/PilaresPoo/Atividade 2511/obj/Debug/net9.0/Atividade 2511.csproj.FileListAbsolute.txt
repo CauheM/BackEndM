@@ -1,0 +1,15 @@
+C:\Users\54440848800\Desktop\BackEndM\POO\PilaresPoo\Atividade 2511\bin\Debug\net9.0\Atividade 2511.exe
+C:\Users\54440848800\Desktop\BackEndM\POO\PilaresPoo\Atividade 2511\bin\Debug\net9.0\Atividade 2511.deps.json
+C:\Users\54440848800\Desktop\BackEndM\POO\PilaresPoo\Atividade 2511\bin\Debug\net9.0\Atividade 2511.runtimeconfig.json
+C:\Users\54440848800\Desktop\BackEndM\POO\PilaresPoo\Atividade 2511\bin\Debug\net9.0\Atividade 2511.dll
+C:\Users\54440848800\Desktop\BackEndM\POO\PilaresPoo\Atividade 2511\bin\Debug\net9.0\Atividade 2511.pdb
+C:\Users\54440848800\Desktop\BackEndM\POO\PilaresPoo\Atividade 2511\obj\Debug\net9.0\Atividade 2511.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54440848800\Desktop\BackEndM\POO\PilaresPoo\Atividade 2511\obj\Debug\net9.0\Atividade 2511.AssemblyInfoInputs.cache
+C:\Users\54440848800\Desktop\BackEndM\POO\PilaresPoo\Atividade 2511\obj\Debug\net9.0\Atividade 2511.AssemblyInfo.cs
+C:\Users\54440848800\Desktop\BackEndM\POO\PilaresPoo\Atividade 2511\obj\Debug\net9.0\Atividade 2511.csproj.CoreCompileInputs.cache
+C:\Users\54440848800\Desktop\BackEndM\POO\PilaresPoo\Atividade 2511\obj\Debug\net9.0\Atividade 2511.sourcelink.json
+C:\Users\54440848800\Desktop\BackEndM\POO\PilaresPoo\Atividade 2511\obj\Debug\net9.0\Atividade 2511.dll
+C:\Users\54440848800\Desktop\BackEndM\POO\PilaresPoo\Atividade 2511\obj\Debug\net9.0\refint\Atividade 2511.dll
+C:\Users\54440848800\Desktop\BackEndM\POO\PilaresPoo\Atividade 2511\obj\Debug\net9.0\Atividade 2511.pdb
+C:\Users\54440848800\Desktop\BackEndM\POO\PilaresPoo\Atividade 2511\obj\Debug\net9.0\Atividade 2511.genruntimeconfig.cache
+C:\Users\54440848800\Desktop\BackEndM\POO\PilaresPoo\Atividade 2511\obj\Debug\net9.0\ref\Atividade 2511.dll
