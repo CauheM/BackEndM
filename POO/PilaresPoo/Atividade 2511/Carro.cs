@@ -1,33 +1,33 @@
 namespace Atividade_2511
 {
-    public static class Carro
+    public class Carro
     {
-        private static string Marca;
-        private static string Modelo;
-        private static int VelocidadeAtual = 0;
+        private string Marca;
+        private string Modelo;
+        private int VelocidadeAtual = 0;
 
-        public static void DefinirMarca(string Valor)
+        public void DefinirMarca(string Valor)
         {
             Marca = Valor;
         }
 
-        public string ObterMarca()
-        {
-            return Marca;   
-        }
-        public static void DefinirModelo(string valor)
+         public string ObterMarca()
+         {
+           return Marca;
+         }
+        public  void DefinirModelo(string valor)
         {
             Modelo = valor;
         }
-        public static void ObterModelo()
+        public string ObterModelo()
         {
-            Console.WriteLine($"Modelo do Carro: {Modelo}");
+            return Modelo;
         }
-        public static void ObterVelocidade()
+        public int ObterVelocidade()
         {
-           Console.WriteLine($"Velocidade atual: {VelocidadeAtual}");   
+           return VelocidadeAtual;   
         }
-        public static void Acelerar(int Valor)
+        public void Acelerar(int Valor)
         {
             if (Valor <= VelocidadeAtual)
             {
@@ -38,7 +38,7 @@ namespace Atividade_2511
                 VelocidadeAtual = Valor;
             }
         }
-        public static void frear(int Valor)
+        public void frear(int Valor)
         {
             if(Valor >= VelocidadeAtual)
             {

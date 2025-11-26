@@ -2,10 +2,13 @@
 
 Console.Clear();
 
-Carro.DefinirMarca("Ford");
-Carro.DefinirModelo("Raptor");
-Carro.Acelerar(300);
-Carro.frear(25);
+Carro carro = new Carro();
 
-Carro.ObterModelo();
-Carro.ObterVelocidade();
+carro.DefinirMarca("Ford");
+carro.DefinirModelo("Raptor");
+carro.Acelerar(300);
+carro.frear(25);
+
+Console.WriteLine($"Marca do Carro: {carro.ObterMarca()}");
+Console.WriteLine($"Modelo do Carro: {carro.ObterModelo()}");
+Console.WriteLine($"Velocidade do Carro: {carro.ObterVelocidade()}KM");
