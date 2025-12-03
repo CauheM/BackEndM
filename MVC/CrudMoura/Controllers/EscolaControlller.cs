@@ -27,6 +27,7 @@ namespace CrudMoura.Controllers
             return View();
         }
 
+        [HttpGet] 
         public IActionResult Criar()
         {
              return View();
