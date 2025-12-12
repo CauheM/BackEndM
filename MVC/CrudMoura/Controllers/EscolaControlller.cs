@@ -13,6 +13,14 @@ namespace CrudMoura.Controllers
     {
         private readonly ILogger<Escola> _logger;
 
+        private readonly GrudMouraContext _context;
+
+        public Escola(ILogger<Escola> logger, GrudMouraContext context)
+        {
+            _logger = logger;
+            _context = context;
+        }
+
         public static List<Aluno> ListadeAluno = new List<Aluno>
         {
             new Aluno{ID = 1, Nome = "Ronaldo", Nota = 7}

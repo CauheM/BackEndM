@@ -1,0 +1,163 @@
+   <link rel="stylesheet" href="~/css/TelaPerfil.css">
+   
+   <body>
+    <h1>Tela perfil - DevConnect</h1>
+   
+    <header id="cabecalho">
+        <nav>
+            <a asp-controller="Feed" asp-action="Index">
+                <img id="logo-desktop" src="~/images/Propriedade 1=Variante 2.svg" alt="Logo do DevConnect">
+            </a>
+            <a asp-controller="Feed" asp-action="Index">
+                <img id="logo-mobile" src="~/images/Propriedade 1=Variante 3.svg" alt="Logo do DevConnect">
+            </a>
+
+            <div class="cabecalho-acoes">
+                <a asp-controller="Feed" asp-action="Index">
+                    <img src="~/images/Propriedade  casa=Variante 2.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="~/images/Propriedade icon coracao=Variante 2.svg" alt="">
+                </a>
+                <a asp-controller="Usuario" asp-action="TelaPerfil">
+                    <img class="foto-perfil" src="~/images/Darwin Nunez (1).jpg" alt="">
+                </a>
+            </div>
+        </nav>
+    </header>
+    
+
+
+    <main>
+        <section id="perfil">
+            <article class="card-perfil">
+                <div class="perfil-container">
+                    
+                    <img class="foto-perfil-destacada" src="~/images/Darwin Nunez (1).jpg" alt="">
+        
+                    
+                    <div class="perfil-info">
+                        <p class="username">darwin-grugru</p>
+        
+                        <div class="perfil-detalhes">
+                            <span><strong>4</strong> publicações</span>
+                            <span><strong>238</strong> seguindo</span>
+                            <span><strong>272</strong> seguidores</span>
+                        </div>
+        
+                        <div class="perfil-acoes">
+                            <strong>Darwin Núñez</strong>
+                            <a href="#">Editar Perfil</a>
+                            <a asp-controller="Home" asp-action="Index">Sair</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        
+        <section id="publicacoes">
+           
+            <h2 class="titulo-publicacoes">
+                <a href="#">
+                <img src="~/images/icone-galeria-preto.svg" alt="">
+                PUBLICAÇÕES</a>
+            </h2>
+            
+            
+            <article class="card-publi">
+                <header>
+                    <a href="#">
+                      <img class="foto-perfil" src="~/images/Darwin Nunez (1).jpg" alt="">
+                      darwin-grugru
+                    </a>
+                  </header>
+                  
+        
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ornare non nulla ac pretium. Vestibulum semper tortor ante, vitae vulputate sapien cursus eu. Maecenas vestibulum ut dui eu laoreet. Curabitur vehicula lectus eget enim placerat tincidunt.
+                </p>
+        
+                <div class="interacoes-publicacao">
+                    <button><img src="~/images/icone-coracao-preto.svg" alt=""></button>
+                    <button><img src="~/images/icone-comentario-preto.svg" alt=""></button>
+                </div>
+        
+                <span class="curtidas">2561 curtidas</span>
+        
+                <button class="comentarios">Ver todos os comentários...</button>
+            </article>
+        
+            
+            <article class="card-publi">
+                <header>
+                    <a href="#">
+                      <img class="foto-perfil" src="~/images/Darwin Nunez (1).jpg" alt="">
+                      darwin-grugru
+                    </a>
+                  </header>
+                  
+        
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ornare non nulla ac pretium. Vestibulum semper tortor ante, vitae vulputate sapien cursus eu. Maecenas vestibulum ut dui eu laoreet. Curabitur vehicula lectus eget enim placerat tincidunt.
+                </p>
+        
+                <div class="interacoes-publicacao">
+                    <button><img src="~/images/icone-coracao-preto.svg" alt=""></button>
+                    <button><img src="~/images/icone-comentario-preto.svg" alt=""></button>
+                </div>
+        
+                <span class="curtidas">1245 curtidas</span>
+        
+                <button class="comentarios">Ver todos os comentários...</button>
+            </article>
+        </section>
+        
+        <article class="card-publi">
+            <header>
+                <a href="#">
+                  <img class="foto-perfil" src="~/images/Darwin Nunez (1).jpg" alt="">
+                  darwin-grugru
+                </a>
+              </header>
+              
+    
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ornare non nulla ac pretium. Vestibulum semper tortor ante, vitae vulputate sapien cursus eu. Maecenas vestibulum ut dui eu laoreet. Curabitur vehicula lectus eget enim placerat tincidunt.
+            </p>
+    
+            <div class="interacoes-publicacao">
+                <button><img src="~/images/icone-coracao-preto.svg" alt=""></button>
+                <button><img src="~/images/icone-comentario-preto.svg" alt=""></button>
+            </div>
+    
+            <span class="curtidas">1562 curtidas</span>
+    
+            <button class="comentarios">Ver todos os comentários...</button>
+        </article>
+    </section>
+        
+    <article class="card-publi">
+        <header>
+            <a href="#">
+              <img class="foto-perfil" src="~/images/Darwin Nunez (1).jpg" alt="">
+              darwin-grugru
+            </a>
+          </header>
+          
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ornare non nulla ac pretium. Vestibulum semper tortor ante, vitae vulputate sapien cursus eu. Maecenas vestibulum ut dui eu laoreet. Curabitur vehicula lectus eget enim placerat tincidunt.
+        </p>
+
+        <div class="interacoes-publicacao">
+            <button><img src="~/images/icone-coracao-preto.svg" alt=""></button>
+            <button><img src="~/images/icone-comentario-preto.svg" alt=""></button>
+        </div>
+
+        <span class="curtidas">742 curtidas</span>
+
+        <button class="comentarios">Ver todos os comentários...</button>
+    </article>
+</section>
+
+</body>

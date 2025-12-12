@@ -1,9 +1,20 @@
-﻿@{
+﻿@model DevConnectMoura.Models.TbUsuario
+
+@{
     ViewData["Title"] = "Logo DevConnect";
 }
 
    <link rel="shortcut icon" href="~/images/logodevconnect.png" type="image/x-icon">
    <link rel="stylesheet" href="~/css/login.css">
+
+    <script defer>
+      let Usuarionovocadastrado = "@TempData["UsuarioNovoCadastrado"]";
+      if(Usuarionovocadastrado == "Usuario cadastrado com sucesso!")
+      {
+        alert("Usuario cadastrado com sucesso, se logue para navegar na nossa plataforma!");
+      }
+    </script>
+
    <h1>Tela principal login - DevConnect</h1>
     <main>
         <div>
@@ -30,7 +41,7 @@
             </form>
 
             <section id="secao-cadastro" class="estilo-formulario">
-                <p>Não tem uma conta? <a href="~/pages/cadastro.html">Cadastre-se</a></p>
+                <p>Não tem uma conta? <a asp-controller="Usuario" asp-action="Cadastro">Cadastre-se</a></p>
             </section>
 
             <p>Obtenha o aplicativo</p>
